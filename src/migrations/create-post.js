@@ -28,16 +28,16 @@ module.exports = {
         type: Sequelize.STRING
       },
       description: {
-        type: Sequelize.TEXT
+        type: Sequelize.TEXT('long')
       },
       userId: {
-        type: Sequelize.TEXT
+        type: Sequelize.STRING
       },
       overviewId: {
-        type: Sequelize.TEXT
+        type: Sequelize.STRING
       },
       imagesId: {
-        type: Sequelize.TEXT
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,

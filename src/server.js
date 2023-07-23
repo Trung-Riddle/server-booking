@@ -3,8 +3,9 @@ require("dotenv").config()
 import cors from "cors";
 import initRoutes from "./routes"
 import connectDb from "./config/connect";
+// import generateCode from "./utils/generateCode";
 
-
+// console.log(generateCode('Cho thuê nhà Quận 5'))
 const app = express()
 app.use(cors({
     origin: process.env.CLIENT_URL,
